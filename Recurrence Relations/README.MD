@@ -1,1 +1,2 @@
 # Recurrence Relations
+In connection with the influenza epidemic, a patients with influenza A and b patients with influenza C are sent to the hospital. Patients with influenza A cannot be placed in the same ward with patients with influenza B. There is information on the total number p of wards in the hospital, numbered from 1 to p, and on the distribution patients already there. It is necessary to determine the maximum number m of patients that the hospital can accept. When placing new patients, it is not allowed to move existing patients from ward to ward.
