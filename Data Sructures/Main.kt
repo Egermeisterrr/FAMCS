@@ -17,15 +17,15 @@ fun solution(
     k: Int
 ): Int {
     val comparator: Comparator<Vertex> = Comparator<Vertex> { o1, o2 ->
-       if (o1.mark < o2.mark) {
-           return@Comparator -1
-       }
-       else if (o1.mark > o2.mark) {
-          return@Comparator 1
-       }
-       else {
-           return@Comparator 0
-       }
+        if (o1.mark < o2.mark) {
+            return@Comparator -1
+        }
+        else if (o1.mark > o2.mark) {
+            return@Comparator 1
+        }
+        else {
+            return@Comparator 0
+        }
     }
     val pq: PriorityQueue<Vertex> = PriorityQueue<Vertex>(n * m, comparator)
     var j: Int
@@ -103,10 +103,10 @@ fun main() {
 
     val n = inp.nextInt()
     val m = inp.nextInt()
-    val matrix = Array(n) { Array(m) { 0 } }
+    val matrix = Array(n + 2) { Array(m + 2) { 0 } }
 
-    for (i in 0 until n) {
-        for (j in 0 until m) {
+    for (i in 1 .. n) {
+        for (j in 1 .. m) {
             val num = inp.nextInt()
             matrix[i][j] = num
         }
