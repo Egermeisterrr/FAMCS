@@ -1,3 +1,5 @@
+# Data Sructures
+
 CONDITION: There is a terrain plan divided into squares, given by a matrix of size n × m. Each square with coordinates (i, j) has a height relative to sea level, the value of which is determined by the natural number aij (numbering of rows and columns of matrix A begins with 1, the upper left square of the matrix has coordinates (1, 1)). The robot can move only on the terrain and only parallel to the Ox and Oy axes between the centers of the squares. When moving to an adjacent square, the length of the ascent (descent) is equal to the modulus of the difference in the heights of the squares, and the length of the movement from square to square is equal to the value k.
 It is necessary to find among the robot routes from position (x1, y1) to position (x2, y2) a route of minimum length. The length of the route is defined as the total length of ascents and descents plus the total length of movements from square to square.
 
